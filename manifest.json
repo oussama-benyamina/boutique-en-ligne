@@ -1,0 +1,69 @@
+{
+  "short_name": "Y-nextwach",
+  "name": "Y-nextwach App",
+  "description": "Y-nextwach App for entertainment",
+  "start_url": "./index.php",
+  "lang": "en-US",
+  "orientation": "any",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "scope": "./index.php",
+  "icons": [
+    {
+      "src": "assets/img/icons/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "assets/img/icons/logo192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/img/icons/logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/img/icons/maskable_icon.png",
+      "sizes": "196x196",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "assets/img/icons/desktop.png",
+      "type": "image/png",
+      "sizes": "1024x1024",
+      "form_factor": "wide"
+    },
+    {
+      "src": "assets/img/icons/mobile.png",
+      "type": "image/png",
+      "sizes": "750x1334"
+    }
+  ],
+  "category": "entertainment",
+  "prefer_related_applications": false,
+  "display_override": ["window-controls-overlay"],
+  "shortcuts": [
+    {
+      "name": "Shop",
+      "short_name": "Shop",
+      "description": "View shop items",
+      "url": "/shop.php",
+      "icons": [{ "src": "assets/img/icons/shop.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Profile",
+      "short_name": "Profile",
+      "description": "View your profile",
+      "url": "/profile.php",
+      "icons": [{ "src": "assets/img/icons/profile.png", "sizes": "192x192" }]
+    }
+  ]
+}

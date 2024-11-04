@@ -1,0 +1,131 @@
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Style général */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #88d9c2, #e0e0e0);
+    color: #051922;
+    transition: background-color 0.3s ease-in-out;
+    overflow-x: hidden;
+}
+
+/* Conteneur principal */
+.container {
+    max-width: 700px;
+    margin: 60px auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    transform: translateY(50px);
+    animation: slideIn 1.5s ease-in-out forwards;
+    opacity: 0;
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Titre principal */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #2F9985;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+/* Formulaire */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: 600;
+    color: #2F9985;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+input[type="file"] {
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+input[type="file"]:focus {
+    border-color: #2F9985;
+    box-shadow: 0 0 10px rgba(47, 153, 133, 0.2);
+}
+
+/* Bouton submit */
+input[type="submit"] {
+    background-color: #2F9985;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+input[type="submit"]:hover {
+    background-color: #051922;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Message de retour */
+.message {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e0f7f3;
+    color: #2F9985;
+    border-left: 5px solid #2F9985;
+    border-radius: 5px;
+}
+
+/* Liens de retour */
+.container a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #2F9985;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.container a:hover {
+    color: #1b6e5a;
+}
+
+/* Animation d'apparition */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

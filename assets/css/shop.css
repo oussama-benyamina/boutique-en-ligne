@@ -1,0 +1,224 @@
+/* Style général du site */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #051922;
+}
+
+/* Styles pour la section des produits */
+.product-section {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.single-product-item {
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.single-product-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 15px;
+}
+
+.product-price {
+    font-size: 1.2rem;
+    color: #2F9985;
+    margin-bottom: 10px;
+}
+
+/* Style du bouton Add to Cart */
+.cart-btn {
+    background: #2F9985;
+    border: 1px solid #2F9985;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: inline-block;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.cart-btn:hover {
+    background-color: #051922;
+    color: #ffb6b9;
+    transform: scale(1.05);
+}
+
+.cart-btn:active {
+    transform: scale(0.95);
+}
+
+/* Effet de rotation 3D */
+.cart-btn.active {
+    transform: rotateY(360deg);
+    background-color: #ffb6b9;
+    color: white;
+    transition: transform 1s ease;
+}
+
+/* Style du champ quantité */
+.product-quantity-input {
+    width: 60px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    text-align: center;
+}
+
+/* Pagination */
+.pagination-wrap {
+    margin-top: 30px;
+}
+
+.pagination-wrap ul {
+    list-style: none;
+    padding: 0;
+    display: inline-flex;
+}
+
+.pagination-wrap ul li {
+    margin-right: 10px;
+}
+
+.pagination-wrap ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #2F9985;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.pagination-wrap ul li a:hover {
+    background-color: #051922;
+}
+
+/* Style du champ de recherche */
+.search-area {
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar input {
+    width: 60%;
+    padding: 12px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+}
+
+.search-bar button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: #2F9985;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+    background-color: #051922;
+}
+
+.wishlist-btn {
+    
+    width: 200px;
+  height: 35px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+}
+
+.wishlist-btn i {
+    color: #666;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.wishlist-btn.in-wishlist i {
+    color: #ff4444;
+}
+
+.wishlist-btn:hover {
+    transform: scale(1.1);
+}
+
+.wishlist-btn:hover i {
+    color: #ff4444;
+}
+
+.product-image {
+    position: relative;
+}
+
+
+
+.header-icons .wishlist i {
+    
+    transition: color 0.3s ease;
+}
+
+.header-icons .wishlist:hover i {
+    color: #b13333;
+}
+
+.remove-from-wishlist {
+  background: #ff4444;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.remove-from-wishlist:hover {
+    background: #cc0000;
+    transform: scale(1.1);
+}
+
+.remove-from-wishlist i {
+    font-size: 16px;
+}
+
+/* Animation for removing items */
+.single-product-item {
+    transition: all 0.3s ease;
+}
+
+.single-product-item.removing {
+    opacity: 0;
+    transform: scale(0.8);
+}

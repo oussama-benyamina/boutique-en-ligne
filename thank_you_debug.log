@@ -1,0 +1,83 @@
+[2024-10-18 13:13:27] Thank you page accessed
+[2024-10-18 13:13:27] Processing order ID: 36 for client ID: 36
+[2024-10-18 13:13:27] Order found: {"order_id":36,"client_id":36,"order_date":"2024-10-18 15:13:27","status":"Pending","total_amount":"954.00","shipping_address_id":40,"admin_notes":null,"last_updated":null,"payment_status":"Paid","first_name":"Test","last_name":"TEST","email":"konstantine.garozashvili@laplateforme.io"}
+[2024-10-18 13:13:27] Order items fetched: 1 items
+[2024-10-18 13:13:27] Order details prepared for email: {"order_id":36,"total_amount":"954.00","items":[{"order_item_id":38,"order_id":36,"product_id":53,"quantity":3,"unit_price":"250.00","name":"Watch Model 3","image_url":"assets\/img\/products\/watch-img-3.jpg"}]}
+[2024-10-18 13:13:27] Attempting to send thank you email to: konstantine.garozashvili@laplateforme.io
+[2024-10-18 13:19:44] Thank you page accessed
+[2024-10-18 13:19:44] Processing order ID: 37 for client ID: 36
+[2024-10-18 13:19:44] Order found: {"order_id":37,"client_id":36,"order_date":"2024-10-18 15:19:44","status":"Pending","total_amount":"354.00","shipping_address_id":41,"admin_notes":null,"last_updated":null,"payment_status":"Paid","first_name":"Test","last_name":"TEST","email":"konstantine.garozashvili@laplateforme.io"}
+[2024-10-18 13:19:44] Order items fetched: 1 items
+[2024-10-18 13:19:44] Order details prepared for email: {"order_id":37,"total_amount":"354.00","items":[{"order_item_id":39,"order_id":37,"product_id":53,"quantity":1,"unit_price":"250.00","name":"Watch Model 3","image_url":"assets\/img\/products\/watch-img-3.jpg"}]}
+[2024-10-18 13:19:44] Attempting to send thank you email to: konstantine.garozashvili@laplateforme.io
+[2024-10-18 13:19:47] Thank you email sent successfully
+[2024-10-18 13:26:37] Thank you page accessed
+[2024-10-18 13:26:37] Processing order ID: 38 for client ID: 38
+[2024-10-18 13:26:37] Order found: {"order_id":38,"client_id":38,"order_date":"2024-10-18 15:26:37","status":"Pending","total_amount":"1494.00","shipping_address_id":42,"admin_notes":null,"last_updated":null,"payment_status":"Paid","first_name":"Ouss","last_name":"BENIAMINA","email":"oussamabeny261@gmail.com"}
+[2024-10-18 13:26:37] Order items fetched: 1 items
+[2024-10-18 13:26:37] Order details prepared for email: {"order_id":38,"total_amount":"1494.00","items":[{"order_item_id":40,"order_id":38,"product_id":62,"quantity":3,"unit_price":"400.00","name":"Watch Model 12","image_url":"assets\/img\/products\/watch-img-12.jpg"}]}
+[2024-10-18 13:26:37] Attempting to send thank you email to: oussamabeny261@gmail.com
+[2024-10-18 13:26:38] Thank you email sent successfully
+[2024-10-22 11:43:33] Thank you page accessed
+[2024-10-22 11:43:33] Processing order ID: 40 for client ID: 47
+[2024-10-22 11:43:33] Order found: {"order_id":40,"client_id":47,"order_date":"2024-10-22 13:43:33","status":"Pending","total_amount":"486.00","shipping_address_id":44,"admin_notes":null,"last_updated":null,"payment_status":"Paid","first_name":"Marlina","last_name":"MARLINA","email":"marlina@gmail.com"}
+[2024-10-22 11:43:33] Order items fetched: 2 items
+[2024-10-22 11:43:33] Order details prepared for email: {"order_id":40,"total_amount":"486.00","items":[{"order_item_id":42,"order_id":40,"product_id":53,"quantity":1,"unit_price":"250.00","name":"Watch Model 3","image_url":"assets\/img\/products\/watch-img-3.jpg"},{"order_item_id":43,"order_id":40,"product_id":59,"quantity":1,"unit_price":"110.00","name":"Watch Model 9","image_url":"assets\/img\/products\/watch-img-9.jpg"}]}
+[2024-10-22 11:43:33] Attempting to send thank you email to: marlina@gmail.com
+[2024-10-22 11:43:34] Thank you email sent successfully
+[2024-10-24 14:08:37] Thank you page accessed
+[2024-10-24 14:08:37] Processing order ID: 43 for client ID: 35
+[2024-10-24 14:08:37] Order found: {"order_id":43,"client_id":35,"order_date":"2024-10-24 16:08:37","status":"Pending","total_amount":"1140.00","shipping_address_id":47,"admin_notes":null,"last_updated":null,"payment_status":"Paid","first_name":"Konstantine","last_name":"GAROZASHVILI","email":"garozashvili25@gmail.com"}
+[2024-10-24 14:08:37] Order items fetched: 2 items
+[2024-10-24 14:08:37] Order details prepared for email: {"order_id":43,"total_amount":"1140.00","items":[{"order_item_id":46,"order_id":43,"product_id":110,"quantity":1,"unit_price":"200.00","name":"apple watch 3","image_url":"assets\/img\/products\/670e82b5aaf2a_images.jpg"},{"order_item_id":47,"order_id":43,"product_id":53,"quantity":3,"unit_price":"250.00","name":"Watch Model 3","image_url":"assets\/img\/products\/watch-img-3.jpg"}]}
+[2024-10-24 14:08:37] Attempting to send thank you email to: garozashvili25@gmail.com
+[2024-10-24 14:08:39] Thank you email sent successfully
+[2024-10-24 14:18:04] Thank you page accessed
+[2024-10-24 14:18:04] Processing order ID: 44 for client ID: 35
+[2024-10-24 14:18:04] Order found: {"order_id":44,"client_id":35,"order_date":"2024-10-24 16:18:04","status":"Pending","total_amount":"3600.00","shipping_address_id":48,"admin_notes":null,"last_updated":null,"payment_status":"Paid","first_name":"Konstantine","last_name":"GAROZASHVILI","email":"garozashvili25@gmail.com"}
+[2024-10-24 14:18:04] Order items fetched: 1 items
+[2024-10-24 14:18:04] Order details prepared for email: {"order_id":44,"total_amount":"3600.00","items":[{"order_item_id":48,"order_id":44,"product_id":53,"quantity":12,"unit_price":"250.00","name":"Watch Model 3","image_url":"assets\/img\/products\/watch-img-3.jpg"}]}
+[2024-10-24 14:18:04] Attempting to send thank you email to: garozashvili25@gmail.com
+[2024-10-24 14:18:05] Thank you email sent successfully
+[2024-10-25 09:11:32] Thank you page accessed
+[2024-10-25 09:11:32] Processing order ID: 45 for client ID: 58
+[2024-10-25 09:11:32] Order found: {"order_id":45,"client_id":58,"order_date":"2024-10-25 11:11:32","status":"Pending","total_amount":"354.00","shipping_address_id":49,"admin_notes":null,"last_updated":null,"payment_status":"Paid","first_name":"Mohammed","last_name":"MALIK","email":"malik-mo@gmail.com"}
+[2024-10-25 09:11:32] Order items fetched: 1 items
+[2024-10-25 09:11:32] Order details prepared for email: {"order_id":45,"total_amount":"354.00","items":[{"order_item_id":49,"order_id":45,"product_id":53,"quantity":1,"unit_price":"250.00","name":"Watch Model 3","image_url":"assets\/img\/products\/watch-img-3.jpg"}]}
+[2024-10-25 09:11:32] Attempting to send thank you email to: malik-mo@gmail.com
+[2024-10-25 09:11:34] Thank you email sent successfully
+[2024-10-28 08:54:28] Thank you page accessed
+[2024-10-28 08:54:28] Processing order ID: 48 for client ID: 35
+[2024-10-28 08:54:28] Order found: {"order_id":48,"client_id":35,"order_date":"2024-10-28 09:54:28","status":"Pending","total_amount":"354.00","shipping_address_id":54,"admin_notes":null,"last_updated":null,"payment_status":"Paid","first_name":"konstantine","last_name":"garozashvili","email":"garozashvili25@gmail.com"}
+[2024-10-28 08:54:28] Order items fetched: 1 items
+[2024-10-28 08:54:28] Order details prepared for email: {"order_id":48,"total_amount":"354.00","items":[{"order_item_id":52,"order_id":48,"product_id":53,"quantity":1,"unit_price":"250.00","name":"Watch Model 3","image_url":"assets\/img\/products\/watch-img-3.jpg"}]}
+[2024-10-28 08:54:28] Attempting to send thank you email to: garozashvili25@gmail.com
+[2024-10-28 08:54:32] Thank you email sent successfully
+[2024-10-31 10:24:19] Thank you page accessed
+[2024-10-31 10:24:19] Processing order ID: 41 for client ID: 53
+[2024-10-31 10:24:19] Order found: {"order_id":41,"client_id":53,"order_date":"2024-10-31 11:24:19","status":"Pending","total_amount":"654.00","shipping_address_id":45,"admin_notes":null,"last_updated":null,"payment_status":"Paid","first_name":"Konstantine","last_name":"GAROZASHVILI","email":"garozashvili25@gmail.com"}
+[2024-10-31 10:24:19] Order items fetched: 1 items
+[2024-10-31 10:24:19] Order details prepared for email: {"order_id":41,"total_amount":"654.00","items":[{"order_item_id":44,"order_id":41,"product_id":53,"quantity":2,"unit_price":"250.00","name":"Watch Model 3","image_url":"assets\/img\/products\/watch-img-3.jpg"}]}
+[2024-10-31 10:24:19] Attempting to send thank you email to: garozashvili25@gmail.com
+[2024-10-31 10:24:20] Thank you email sent successfully
+[2024-10-31 10:28:17] Thank you page accessed
+[2024-10-31 10:28:17] Processing order ID: 42 for client ID: 53
+[2024-10-31 10:28:17] Order found: {"order_id":42,"client_id":53,"order_date":"2024-10-31 11:28:17","status":"Pending","total_amount":"558.00","shipping_address_id":46,"admin_notes":null,"last_updated":null,"payment_status":"Paid","first_name":"Konstantine","last_name":"GAROZASHVILI","email":"garozashvili25@gmail.com"}
+[2024-10-31 10:28:17] Order items fetched: 1 items
+[2024-10-31 10:28:17] Order details prepared for email: {"order_id":42,"total_amount":"558.00","items":[{"order_item_id":45,"order_id":42,"product_id":74,"quantity":1,"unit_price":"420.00","name":"Watch Model 24","image_url":"assets\/img\/products\/watch-img-24.jpg"}]}
+[2024-10-31 10:28:17] Attempting to send thank you email to: garozashvili25@gmail.com
+[2024-10-31 10:28:18] Thank you email sent successfully
+[2024-11-04 10:35:00] Thank you page accessed
+[2024-11-04 10:35:00] Processing order ID: 44 for client ID: 60
+[2024-11-04 10:35:00] Order found: {"order_id":44,"client_id":60,"order_date":"2024-11-04 11:35:00","status":"Pending","total_amount":"1404.00","shipping_address_id":48,"admin_notes":null,"last_updated":null,"payment_status":"Paid","first_name":"Fernandez","last_name":"MARINA","email":"marina.fernandez@laplateforme.io"}
+[2024-11-04 10:35:00] Order items fetched: 3 items
+[2024-11-04 10:35:00] Order details prepared for email: {"order_id":44,"total_amount":"1404.00","items":[{"order_item_id":47,"order_id":44,"product_id":108,"quantity":1,"unit_price":"800.00","name":"Apple Watch Ultra","image_url":"assets\/img\/products\/670587d641ccc_91XlXLiUDFL.__AC_SY445_SX342_QL70_ML2_.jpg"},{"order_item_id":48,"order_id":44,"product_id":54,"quantity":1,"unit_price":"120.00","name":"Watch Model 4","image_url":"assets\/img\/products\/watch-img-4.jpg"},{"order_item_id":49,"order_id":44,"product_id":53,"quantity":1,"unit_price":"250.00","name":"Watch Model 3","image_url":"assets\/img\/products\/watch-img-3.jpg"}]}
+[2024-11-04 10:35:00] Attempting to send thank you email to: marina.fernandez@laplateforme.io
+[2024-11-04 10:35:03] Thank you email sent successfully
+[2024-11-04 10:35:03] Thank you page accessed
+[2024-11-04 10:35:03] Processing order ID: 44 for client ID: 60
+[2024-11-04 10:35:03] Order found: {"order_id":44,"client_id":60,"order_date":"2024-11-04 11:35:00","status":"Pending","total_amount":"1404.00","shipping_address_id":48,"admin_notes":null,"last_updated":null,"payment_status":"Paid","first_name":"Fernandez","last_name":"MARINA","email":"marina.fernandez@laplateforme.io"}
+[2024-11-04 10:35:03] Order items fetched: 3 items
+[2024-11-04 10:35:03] Order details prepared for email: {"order_id":44,"total_amount":"1404.00","items":[{"order_item_id":47,"order_id":44,"product_id":108,"quantity":1,"unit_price":"800.00","name":"Apple Watch Ultra","image_url":"assets\/img\/products\/670587d641ccc_91XlXLiUDFL.__AC_SY445_SX342_QL70_ML2_.jpg"},{"order_item_id":48,"order_id":44,"product_id":54,"quantity":1,"unit_price":"120.00","name":"Watch Model 4","image_url":"assets\/img\/products\/watch-img-4.jpg"},{"order_item_id":49,"order_id":44,"product_id":53,"quantity":1,"unit_price":"250.00","name":"Watch Model 3","image_url":"assets\/img\/products\/watch-img-3.jpg"}]}
+[2024-11-04 10:35:03] Attempting to send thank you email to: marina.fernandez@laplateforme.io
+[2024-11-04 10:35:06] Thank you email sent successfully

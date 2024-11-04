@@ -1,0 +1,358 @@
+/* Modern Variables */
+:root {
+    --primary-color: #2F9985;
+    --secondary-color: #1b6e5a;
+    --accent-color: #88d9c2;
+    --background-color: #f5f7f9;
+    --text-color: #2c3e50;
+    --border-radius: 12px;
+    --box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    --transition: all 0.3s ease;
+}
+
+/* Base Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, var(--accent-color), var(--background-color));
+    color: var(--text-color);
+    line-height: 1.6;
+    padding: 20px;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.container-fluid {
+    max-width: 1400px;
+    margin: 0 auto;
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* Header Styles */
+.inventory-header {
+    background-color: white;
+    padding: 25px;
+    border-radius: var(--border-radius);
+    margin-bottom: 25px;
+    box-shadow: var(--box-shadow);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+    color: var(--primary-color);
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+/* Button Styles */
+.btn {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: var(--transition);
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-add {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.btn-back {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Search Box */
+.search-container {
+    margin-top: 20px;
+}
+
+.search-box {
+    position: relative;
+    max-width: 400px;
+}
+
+.search-icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+}
+
+#search-input {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #ddd;
+    border-radius: var(--border-radius);
+    font-size: 14px;
+}
+
+/* Table Styles */
+.table-responsive {
+    background: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+}
+
+.table {
+    margin: 0;
+    width: 100%;
+    background: white;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+}
+
+.table thead th {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 15px;
+    font-weight: 500;
+    border: none;
+}
+
+.table tbody tr {
+    transition: background-color 0.3s ease;
+}
+
+.table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.product-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: var(--border-radius);
+}
+
+.no-image {
+    width: 50px;
+    height: 50px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--border-radius);
+}
+
+/* Action Buttons */
+.actions-cell {
+    white-space: nowrap;
+}
+
+.btn-action {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+    margin: 0 2px;
+}
+
+.btn-edit {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.btn-delete {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.btn-action:hover {
+    transform: scale(1.1);
+}
+
+/* Pagination */
+.pagination-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination {
+    display: flex;
+    gap: 5px;
+}
+
+.page-link {
+    padding: 8px 12px;
+    border-radius: var(--border-radius);
+    background-color: white;
+    color: var(--text-color);
+    border: 1px solid #ddd;
+}
+
+.page-item.active .page-link {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .action-buttons {
+        flex-direction: column;
+    }
+
+    .table-responsive {
+        overflow-x: auto;
+    }
+
+    .description-cell {
+        max-width: 150px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+/* Highlight Row */
+.highlight-row {
+    background-color: #e8f5e9 !important;
+}
+
+/* Additional Responsive Adjustments */
+@media (max-width: 576px) {
+    body {
+        padding: 10px;
+    }
+
+    .inventory-header {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .btn {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* Add animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Add to your existing inventory.css */
+.modal-content {
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 15px 15px 0 0;
+}
+
+.modal-header .close {
+    color: white;
+}
+
+.custom-file-label {
+    overflow: hidden;
+}
+
+#imagePreview {
+    text-align: center;
+}
+
+#imagePreview img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+#imagePreview img:hover {
+    transform: scale(1.05);
+}
+
+.modal .form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(47, 153, 133, 0.25);
+}
+
+/* Modal styles */
+.modal-content {
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.modal-header {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 15px 15px 0 0;
+    padding: 1.5rem;
+}
+
+.modal-header .close {
+    color: white;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.modal-header .close:hover {
+    opacity: 1;
+}
+
+.modal-body {
+    padding: 2rem;
+}
+
+.modal-footer {
+    padding: 1.5rem;
+    border-top: 1px solid #eee;
+}
+
+#imagePreview img {
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+#imagePreview img:hover {
+    transform: scale(1.05);
+}
